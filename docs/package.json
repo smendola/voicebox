@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "fumadocs-mdx && next build",
-    "dev": "fumadocs-mdx && next dev",
-    "start": "next start",
+    "build": "node api.js && fumadocs-mdx && next build",
+    "dev": "node api.js && fumadocs-mdx && next dev",
+    "start": "node api.js && next start",
     "postinstall": "fumadocs-mdx"
   },
   "dependencies": {
