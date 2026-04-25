@@ -3,9 +3,9 @@
   "version": "0.4.5",
   "description": "Landing page for voicebox.sh",
   "scripts": {
-    "dev": "next dev --turbo",
-    "build": "bun --bun next build",
-    "start": "bun --bun next start",
+    "dev": "node api.js && next dev --turbo",
+    "build": "node api.js && bun --bun next build",
+    "start": "node api.js && bun --bun next start",
     "lint": "next lint"
   },
   "dependencies": {

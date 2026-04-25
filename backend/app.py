@@ -1,5 +1,6 @@
 """FastAPI application factory, middleware, and lifecycle events."""
 
+import utils.session
 import asyncio
 import logging
 import os
